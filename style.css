@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Montserrat:wght@600&display=swap');
 
+
 :root {
     --cor-um: #EDF1D6;
     --cor-dois: #609966;
@@ -32,15 +33,19 @@
 body {
     height: 100vh;
     box-sizing: border-box;
+    background-image: url(../assets/andre-portfolio_2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
     background-color: var(--cor-um);
     color: var(--cor-dois);
 }
 .apresentacao {
-    padding: 5% 15%;
+    padding: 1% 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 30px;
 }
 .apresentacao__conteudo {
     width: 50%;
@@ -62,12 +67,11 @@ body {
     color: var(--cor-tres);
 }
 .apresentacao__links__navegacao {
-    /* background-color: #FFA3FD; */
     display: flex;
     justify-content: center;
-    gap: 16px;
-    width: 50%;
-    padding: 21.5px 0;
+    gap: 21.5px;
+    width: 40%;
+    padding: 16px 0;
     border: 2px solid var(--cor-quatro);
     font-size: 1.5rem;
     font-weight: 600;
@@ -100,10 +104,14 @@ body {
 .apresentacao__imagem {
     width: 50%;
 }
-
+.apresentacao__imagem:hover {
+    width: 51%;
+    -xpedu-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
 .rodape {
-    padding: 24px;
-    background-color: var(--cor-quatro);
+    padding: 2%;
     text-align: center;
     text-decoration: none;
     color: var(--cor-dois);
