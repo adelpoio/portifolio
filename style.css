@@ -31,7 +31,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
     background-image: url(andre-portfolio_2.svg);
     background-repeat: no-repeat;
